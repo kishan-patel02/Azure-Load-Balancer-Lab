@@ -9,7 +9,8 @@ This lab demonstrates how to create **two VMs**, install web servers on them, an
 ### 1️⃣ Create VMs
 - Created **VM1** and **VM2** in Azure.  
 - Installed a basic web server (IIS on Windows).  
-- Screenshots:screenshots /Webserver-Install.png
+- Screenshots:Azure-Load-Balancer-Lab/screenshots
+/Webserver-Install.png
 
 ---
 
