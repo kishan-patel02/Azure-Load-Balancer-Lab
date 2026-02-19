@@ -9,9 +9,7 @@ This lab demonstrates how to create **two VMs**, install web servers on them, an
 ### 1️⃣ Create VMs
 - Created **VM1** and **VM2** in Azure.  
 - Installed a basic web server (IIS on Windows).  
-- Screenshots:  
-  ![VM1 Webserver](screenshots/vm1-webserver.png)  
-  ![VM2 Webserver](screenshots/vm2-webserver.png)  
+- Screenshots:screenshots /Webserver-Install.png
 
 ---
 
