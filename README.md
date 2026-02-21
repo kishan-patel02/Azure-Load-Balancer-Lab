@@ -106,8 +106,10 @@ Access the Application Gateway Public IP:
 http://<AppGW_PIP>
 
 You should see responses alternating between "VM1" and "VM2".
+
 Screenshot:[Azure-Load-Balancer-Lab/screenshots
 /Application-Gateway-Webserver1.png](https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/5eb420eb085240966dbd7dbf6bb8291b89e16734/screenshots%20/Application-Gateway-Webserver1.png)
+
 Screenshot:[Azure-Load-Balancer-Lab/screenshots
 /Aaplication-Gateway-Webserver2.png
 ](https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/5eb420eb085240966dbd7dbf6bb8291b89e16734/screenshots%20/Aaplication-Gateway-Webserver2.png)
