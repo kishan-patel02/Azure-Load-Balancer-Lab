@@ -45,7 +45,6 @@ This lab demonstrates how to create **two VMs**, install web servers on them, an
 - Should see `"VM1"` and `"VM2"` alternately if **round-robin** is used.  
 - Use `curl` to verify alternation:  
 ```bash
-- Screenshot:https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/33d2cb78f00d755a16b4d906563805781834019b/screenshots%20/Load-Balancing-Vm1.png
-- Screenshot:https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/33d2cb78f00d755a16b4d906563805781834019b/screenshots%20/Load-Balancing-Vm2.png
-curl http://<LB_PIP>
-curl http://<LB_PIP>
+- Screenshots:https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/33d2cb78f00d755a16b4d906563805781834019b/screenshots%20/Load-Balancing-Vm1.png
+- Screenshots:https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/33d2cb78f00d755a16b4d906563805781834019b/screenshots%20/Load-Balancing-Vm2.png
+
