@@ -24,22 +24,16 @@ This lab demonstrates how to create **two VMs**, install web servers on them, an
 
 ### 3️⃣ Configure Azure Load Balancer
 **Backend Pool**  
-- Added both VM1 and VM2 to the backend pool  
-- Screenshot:  
-  ![Backend Pool](screenshots/backend-pool.png)  
+- Added both VM1 and VM2 to the backend pool    
 
 **Load Balancing Rule**  
 - Protocol: TCP  
 - Port: 80 (HTTP)  
 - Backend pool: VM1 + VM2  
 - Health probe: HTTP, port 80, path `/`  
-- Screenshot:  
-  ![LB Rule](screenshots/lb-rule.png)  
 
 **Inbound NAT Rules** (Optional for RDP/SSH)  
-- Forward specific ports to VM1 and VM2 for direct access  
-- Screenshot:  
-  ![Inbound NAT](screenshots/inbound-nat.png)  
+- Forward specific ports to VM1 and VM2 for direct access    
 
 **Outbound SNAT Rules**  
 - Ensure VMs can access the internet using the LB's public IP  
@@ -51,5 +45,7 @@ This lab demonstrates how to create **two VMs**, install web servers on them, an
 - Should see `"VM1"` and `"VM2"` alternately if **round-robin** is used.  
 - Use `curl` to verify alternation:  
 ```bash
+- Screenshot:https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/33d2cb78f00d755a16b4d906563805781834019b/screenshots%20/Load-Balancing-Vm1.png
+- Screenshot:https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/33d2cb78f00d755a16b4d906563805781834019b/screenshots%20/Load-Balancing-Vm2.png
 curl http://<LB_PIP>
 curl http://<LB_PIP>
