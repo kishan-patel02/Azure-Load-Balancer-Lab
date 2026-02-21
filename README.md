@@ -65,14 +65,14 @@ Assigned Public IP
 SKU: Standard_v2
 
 Enabled HTTP listener on port 80
+
 Screenshot:[Azure-Load-Balancer-Lab/screenshots
 /ApplicationGW-Creation.png](https://github.com/kishan-patel02/Azure-Load-Balancer-Lab/blob/5eb420eb085240966dbd7dbf6bb8291b89e16734/screenshots%20/ApplicationGW-Creation.png)
+
 
 Backend Pool Configuration
 
 Added VM1 and VM2 private IP addresses to backend pool
-
-
 Backend Settings (HTTP Settings)
 
 Protocol: HTTP
